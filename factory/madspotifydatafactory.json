@@ -1,0 +1,9 @@
+{
+	"name": "madspotifydatafactory",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6b549864-3d98-43fa-83c2-03fe18f2ca5a",
+		"tenantId": "2bc1eeb4-18e0-4908-91fa-975a0297ebf6"
+	}
+}
