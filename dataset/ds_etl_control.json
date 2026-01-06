@@ -1,0 +1,35 @@
+{
+	"name": "ds_etl_control",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "schema",
+				"type": "varchar"
+			},
+			{
+				"name": "table",
+				"type": "varchar"
+			},
+			{
+				"name": "cdc_col",
+				"type": "varchar"
+			},
+			{
+				"name": "lastmodified_on",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "Spotify",
+			"table": "SPOTIFY_ETL_CONTROL"
+		}
+	}
+}
